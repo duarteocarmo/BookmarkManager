@@ -1,5 +1,6 @@
 from django.conf.urls import url
 
+
 urlpatterns = [
     # list of all bookmarks from a particular person
     url(r'^user/(?P<username>[-\w]+)/$', 'marcador.views.bookmark_user',

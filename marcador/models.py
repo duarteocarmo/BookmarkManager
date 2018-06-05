@@ -53,3 +53,5 @@ class Bookmark(models.Model):
             self.date_created = now()
         self.date_updated = now()
         super(Bookmark, self).save(*args, **kwargs)
+
+
